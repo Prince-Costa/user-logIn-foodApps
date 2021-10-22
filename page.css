@@ -1,0 +1,35 @@
+.responsive-img{
+    width: 33%;
+    height: auto;
+}
+.responsive-signin{
+    width: 50%;
+    height: auto;
+}
+.center { 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 34%;
+    height: auto;
+}
+
+input::placeholder{
+    opacity: .5 !important;
+}
+@media only screen and (max-width: 768px) {
+    .center { 
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: auto;
+    }
+  
+}
